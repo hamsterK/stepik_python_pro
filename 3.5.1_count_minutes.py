@@ -1,4 +1,4 @@
-from datetime import date, time, datetime, timedelta
+from datetime import datetime
 
 data = [('07:14', '08:46'),
         ('09:01', '09:37'),
