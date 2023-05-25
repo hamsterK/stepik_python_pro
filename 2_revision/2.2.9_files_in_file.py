@@ -70,7 +70,7 @@ def convert(size):
         return f'{round(size)} B'
 
 
-with open('files.txt', encoding='utf-8') as file:
+with open('../4_files/files.txt', encoding='utf-8') as file:
     units = {'B': 1, 'KB': 1024, 'MB': 1024**2, 'GB': 1024**3}
     data, file_names, file_size = [], {}, {}
 
