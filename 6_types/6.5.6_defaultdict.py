@@ -45,4 +45,3 @@ messages = ['bu bu da', 'bu bu da', 'bu bu da', 'bu bu da', 'bu bu da', 'bu bu n
 senders = ['dima', 'anri', 'timur', 'timur', 'anri', 'dima']
 
 print(best_sender(messages, senders))
-
