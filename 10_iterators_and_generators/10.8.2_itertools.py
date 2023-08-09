@@ -16,12 +16,20 @@ def roundrobin(*args):
             try:
                 next_elements.append(next(it))
             except StopIteration:
-                iterators.remove(it)
-        if next_elements:
+                pass
+        if len(next_elements) > 0:
             yield from next_elements
+        else:
+            break
 
 
 numbers = [1, 2, 3]
 letters = iter('beegeek')
-
 print(*roundrobin(numbers, letters))
+
+print(*roundrobin('abc', 'd', 'ef'))
+
+numbers = iter([1, 2, 3])
+nones = iter([None, None, None, None])
+print(*roundrobin(numbers, nones))
+
