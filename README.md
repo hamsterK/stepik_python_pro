@@ -1,2 +1,2 @@
 Here I followed advanced Python course:
-https://stepik.org/course/68343/
+https://stepik.org/course/82541/syllabus
